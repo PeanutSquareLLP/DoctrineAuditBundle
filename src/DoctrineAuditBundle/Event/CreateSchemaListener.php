@@ -66,7 +66,7 @@ class CreateSchemaListener implements EventSubscriber
         }
 
         $updater = new UpdateHelper($this->manager, $this->reader);
-        $updater->createAuditTable($eventArgs->getClassTable(), $eventArgs->getSchema());
+        // $updater->createAuditTable($eventArgs->getClassTable(), $eventArgs->getSchema());
     }
 
     /**
