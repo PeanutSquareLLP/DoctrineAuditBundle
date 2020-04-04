@@ -4,12 +4,6 @@
   "description": "Doctrine audits logs made easy.",
   "keywords": ["doctrine", "audit", "audit-log", "audit-trail"],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Damien Harper",
-      "email": "damien.harper@gmail.com"
-    }
-  ],
   "require": {
     "php": ">=7.2",
     "doctrine/annotations": "^1.8",
